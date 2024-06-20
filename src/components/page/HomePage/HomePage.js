@@ -1,10 +1,13 @@
 import React from "react";
+import './HomePage.css';
 import { useState } from "react";
 
 const HomePage = () => {
     return(
-        <div>
-            123
+        <div className="homepage-flex">
+            <div className="homepage-box">
+
+            </div>
         </div>
     )
 }

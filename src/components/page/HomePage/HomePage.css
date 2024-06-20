@@ -1,0 +1,11 @@
+.homepage-flex {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.homepage-box {
+    background-color:antiquewhite;
+    margin: 10px;
+}
