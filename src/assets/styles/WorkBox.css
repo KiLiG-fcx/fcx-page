@@ -1,0 +1,6 @@
+.workbox {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin-left: 10px;
+}
