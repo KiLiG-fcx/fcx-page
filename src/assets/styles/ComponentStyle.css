@@ -4,3 +4,9 @@
     background-color: beige;
     margin-left: 10px;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    
+}

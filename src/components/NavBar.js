@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Button } from "antd";
+import '../assets/styles/ComponentStyle.css';
 
 
 const NavBar = () => {
@@ -8,11 +10,12 @@ const NavBar = () => {
 
     return(
         <nav className="navbar">
-            <ul>
-                <li>
-                    <button onClick={() => navigate('/')}>Home</button>
-                </li>
-            </ul>
+            <Button onClick={()=>navigate('/')} type="primary">
+                Home
+            </Button>
+            <Button onClick={()=>navigate('/works')} type="primary">
+                My Work
+            </Button>
         </nav>
     )
 }

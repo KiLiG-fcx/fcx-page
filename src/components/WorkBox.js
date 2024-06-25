@@ -1,4 +1,4 @@
-import 'src\assets\styles\WorkBox.css';
+import '../assets/styles/ComponentStyle.css';
 
 const WorkBox = () => {
     return(
